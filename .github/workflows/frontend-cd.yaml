@@ -13,7 +13,7 @@ env:
   ECR_REPOSITORY: frontend
   EKS_CLUSTER_NAME: cluster
   EKS_CLUSTER_ENDPOINT: https://E5C8B26056199FF38A42D9549D08379D.gr7.us-east-1.eks.amazonaws.com
-  REACT_APP_MOVIE_API_URL: http://localhost:5000
+  REACT_APP_MOVIE_API_URL: http://a5be8bf7669f646809462d72f5eebbec-846101029.us-east-1.elb.amazonaws.com
 
 jobs:
   lint:
